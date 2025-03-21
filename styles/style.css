@@ -1,0 +1,70 @@
+/* nav & header style*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: tan;
+}
+.navTitle{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 25px 10px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+.navv:hover{
+ background-color: rgb(209, 187, 158);
+ color:#f54646;
+}
+.textCol{
+    color: #f54646;
+}
+.btn{
+    height: 5px 5px;
+    border-radius: 5px;
+    background: #e85f5f;
+    padding: 20px 20px;
+}
+.btn:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+  }
+.move{
+    margin-top: 5px;
+    width: 100px;
+  height: 100px;
+  background-size: cover; 
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {background-color: purple ; left:800px; top:0px;}
+    25%  {background-color: firebrick; left:1000px; top:0px;}
+    50%  {background-color: darkcyan; left:1000px; top:200px;}
+    75%  {background-color:green; left:800px; top:200px;}
+    100% {background-color: purple; left:800px; top:0px;}
+  }
+
+.banner{
+    margin-left: none;
+    padding-top: 0px;
+    display: flex;
+    justify-content:left;
+    background-color: beige ;
+    font-family: "papyrus";
+    
+}
+
+.in{
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
